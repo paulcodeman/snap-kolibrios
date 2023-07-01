@@ -380,7 +380,7 @@ $cmm = <<<CMM
 #initallvar 0
 #jumptomain FALSE
 
-#startaddress 0
+#startaddress 0x10000
 
 #code32 TRUE
 
@@ -529,6 +529,6 @@ ______STOP______:
 CMM;
 
 echo $cmm;
-file_put_contents('apps.c', str_replace("\n","\r\n",$cmm));
+file_put_contents('application.c', str_replace("\n","\r\n",$cmm));
 //$dir = __DIR__;
 //echo exec("/bin/cmm 2>&1");
