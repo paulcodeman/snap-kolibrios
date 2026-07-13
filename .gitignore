@@ -1,0 +1,14 @@
+# Build artifacts
+application.c
+application.com
+application.kex
+resource/
+warning.txt
+temp/
+
+# IDE
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
